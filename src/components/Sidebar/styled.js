@@ -5,7 +5,6 @@ export const Container = styled.div`
     height: 72rem;
     width: 18.125rem;
     background: #FFFFFF;
-    border: 1px solid red;
     position: relative;
 `;
 
@@ -85,7 +84,7 @@ export const Separator = styled.div`
 `;
 
 export const Pages = styled.div`
-    position: absolute;
+    position: relative;
     width: 259px;
     height: 316px;
     left: 31px;
@@ -107,8 +106,8 @@ export const DashboadLink = styled.div`
     position: absolute;
     width: 83px;
     height: 30px;
-    left: 69px;
-    top: 171px;
+    left: 38px;
+    top: 3px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -116,18 +115,139 @@ export const DashboadLink = styled.div`
     line-height: 30px;
     letter-spacing: -0.02em;
     color: #2B3674;
+    text-transform: capitalize;
 `;
 
 export const HomeIcon = styled.div`
     position: absolute;
-    left: 11.68%;
-    right: 11.66%;
-    top: 13.94%;
-    bottom: 16.67%;
-    img{
-        
-        width: 18.400148391723633px;
-        
+    height: 16.655000686645508px;
+    width: 18.400148391723633px;
+    left: 4.8px;
+    top: 9.34px;
+    border-radius: 0px;
 
+    img{
+        width: 18.400148391723633px;
+    }
+`;
+
+export const VendasLink = styled.div`
+    position: absolute;
+    width: 55px;
+    height: 30px;
+    left: 38px;
+    top: 59px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #A3AED0;
+    text-transform: capitalize;
+`;
+
+export const VendasIcon = styled.div`
+    position: absolute;
+    height: 16.333332061767578px;
+    width: 16.333332061767578px;
+    left: 3px;
+    top: 64px;
+    border-radius: 0px;
+
+
+
+    img{
+        width: 18.400148391723633px;
+    }
+`;
+
+export const RelatoriosLink = styled.div`
+    position: absolute;
+    width: 73px;
+    height: 30px;
+    left: 38px;
+    top: 115px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #A3AED0;
+    text-transform: capitalize;
+`;
+
+export const RelatoriosIcon = styled.div`
+    position: absolute;
+    height: 16.333332061767578px;
+    width: 16.333332061767578px;
+    left: 5.83px;
+    top: 121.83px;
+    border-radius: 0px;
+
+
+    img{
+        width: 18.400148391723633px;
+    }
+`;
+
+export const LojasLink = styled.div`
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 38px;
+    top: 171px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #A3AED0;
+    text-transform: capitalize;
+`;
+
+export const LojasIcon = styled.div`
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 5px;
+    top: 177px;
+    border-radius: 0px;
+
+
+    img{
+        width: 18.400148391723633px;
+    }
+`;
+
+export const ClientesLink = styled.div`
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 38px;
+    top: 227px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #A3AED0;
+    text-transform: capitalize;
+`;
+
+export const ClientesIcon = styled.div`
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 6px;
+    top: 234px;
+    border-radius: 0px;
+
+
+    img{
+        width: 18.400148391723633px;
     }
 `;
