@@ -38,7 +38,7 @@ height: 40px;
 left: 31px;
 top: 19px;
 
-font-family: 'DM Sans', sans-serif;
+
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -76,7 +76,7 @@ left: 31px;
 `;
 
 export const BodyColumn = styled.div`
-margin-right: 184px;
+margin-right: 125px;
 display: flex;
 flex-direction: column;
 

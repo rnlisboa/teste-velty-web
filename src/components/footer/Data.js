@@ -35,7 +35,7 @@ export const Data = {
             clubContent: {
                 title: 'clube',
                 c1: '6 vendas',
-                c2: '12vendas',
+                c2: '12 vendas',
                 c3: '24 vendas',
                 c4: 'Personalizado'
             },

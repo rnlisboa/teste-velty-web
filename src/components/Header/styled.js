@@ -40,7 +40,7 @@ export const LargeInput = styled.div`
     right: 22px;
     top: 65px;
     background: #FFFFFF;
-    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.1);
+    box-shadow: 14px 17px 40px 4px rgba(112, 144, 176, 0.08);
     border-radius: 30px;
 
 `;
