@@ -5,7 +5,9 @@ export const Container = styled.div`
     height: 72rem;
     width: 18.125rem;
     background: #FFFFFF;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
 `;
 
 export const Frame = styled.div`
