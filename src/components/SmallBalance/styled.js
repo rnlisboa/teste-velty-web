@@ -3,19 +3,30 @@ import * as c from '../../config/default'
 export const Container = styled.div`
     ${c.DMSans}
     position: absolute;
-    top: 620px;
-    left: 290px;
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px 20px;
+    padding: 0px 20px 80px;
     gap: 20px;
     width: 1610px;
-    height: 97px;
+    height: 206px;
+    top: 737px;
+    left: 290px;
     flex: none;
-    order: 2;
+    order: 3;
     flex-grow: 0;
+`;
+
+export const Icon = styled.div`
+    position: relative;
+    width: 100%;
+    height: 97px;
+    img{
+        position: absolute;
+        top:35px;
+        left: 37.4px;
+    }
+    background: #F4F7FE;
 `;
 
 export const SmallSales = styled.div`
@@ -35,10 +46,10 @@ export const SmallSales = styled.div`
 
 export const Label = styled.div`
     position: absolute;
-    width: 173px;
-    height: 13px;
-    left: 23px;
-    top: 17px;
+    width: 187px;
+    height: 23px;
+    left: 16px;
+    top: 122px;
 
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
@@ -47,8 +58,6 @@ export const Label = styled.div`
     line-height: 24px;
     /* or 171% */
 
-    display: flex;
-    align-items: center;
     letter-spacing: -0.02em;
 
     color: #A3AED0;
@@ -58,15 +67,15 @@ export const Cash = styled.div`
     position: absolute;
     width: 144px;
     height: 31px;
-    left: 23px;
-    top: 33px;
+    left: 16px;
+    top: 91px;
 
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 34px;
     line-height: 32px;
-    /* or 133% */
+    /* or 94% */
 
     letter-spacing: -0.02em;
 
@@ -75,10 +84,10 @@ export const Cash = styled.div`
 
 export const Percent = styled.div`
     position: absolute;
-    width: 113px;
+    width: 132px;
     height: 14px;
-    left: 23px;
-    top: 67px;
+    left: 16px;
+    top: 156px;
 
     font-family: 'DM Sans', sans-serif;
     font-style: normal;

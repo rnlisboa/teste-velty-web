@@ -110,7 +110,7 @@ export const DashboadLink = styled.div`
     height: 30px;
     left: 38px;
     top: 3px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -139,7 +139,7 @@ export const VendasLink = styled.div`
     height: 30px;
     left: 38px;
     top: 59px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -170,7 +170,7 @@ export const RelatoriosLink = styled.div`
     height: 30px;
     left: 38px;
     top: 115px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -196,11 +196,12 @@ export const RelatoriosIcon = styled.div`
 
 export const LojasLink = styled.div`
     position: absolute;
-    width: 110px;
+    width: fit-content;
+    white-space: nowrap;
     height: 30px;
     left: 38px;
     top: 171px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -226,11 +227,12 @@ export const LojasIcon = styled.div`
 
 export const ClientesLink = styled.div`
     position: absolute;
-    width: 60px;
+    width: fit-content;
+    white-space: nowrap;
     height: 30px;
     left: 38px;
     top: 227px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

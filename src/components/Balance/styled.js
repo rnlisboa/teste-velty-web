@@ -1,6 +1,7 @@
 import styled from "styled-components";
-
+import * as c from '../../config/default'
 export const Container = styled.div`
+    ${c.DMSans}
     position: absolute;
     width: 100%;
     height: fit-content;
@@ -64,7 +65,7 @@ width: 305px;
 height: 31px;
 left: 16px;
 top: 109px;
-font-family: 'DM Sans';
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
@@ -83,7 +84,7 @@ height: 23px;
 left: 16px;
 top: 158px;
 
-font-family: 'DM Sans';
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
@@ -113,7 +114,7 @@ height: 31px;
 left: 16px;
 top: 230px;
 
-font-family: 'DM Sans';
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -132,7 +133,7 @@ height: 23px;
 left: 16px;
 top: 261px;
 
-font-family: 'DM Sans';
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;

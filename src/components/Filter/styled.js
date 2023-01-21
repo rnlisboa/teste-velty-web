@@ -1,6 +1,7 @@
 import styled from "styled-components";
-
+import * as c from '../../config/default'
 export const Container = styled.div`
+    ${c.DMSans}
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -33,7 +34,7 @@ width: 99px;
 height: 24px;
 left: 50px;
 top: 18px;
-font-family: 'DM Sans';
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -74,7 +75,7 @@ width: 68px;
 height: 20px;
 left: 42px;
 top: calc(50% - 20px/2 + 0.5px);
-font-family: 'DM Sans';
+font-family: 'DM Sans', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;

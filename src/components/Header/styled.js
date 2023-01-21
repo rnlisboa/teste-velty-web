@@ -1,13 +1,14 @@
 import styled from "styled-components";
-
+import * as c from '../../config/default'
 export const PrincipalDashboard = styled.div`
+    ${c.DMSans}
     position: absolute;
     width: 143px;
     height: 24px;
     left: 320px;
     top: 49px;
 
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -22,7 +23,7 @@ export const VeltyDashboard = styled.div`
     height: 42px;
     left: 320px;
     top: 75px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -53,10 +54,6 @@ export const Form = styled.form`
     border-radius: 49px;
     height: 41px;
     width: 214px;
-    @font-face {
-        font-family: 'DM Sans';
-        src: url('../../fonts/DMSans-Regular.ttf');
-    }
 `;
 
 export const Input = styled.input`
