@@ -17,7 +17,6 @@ export default function Dashboard(){
         <SmallBalance/>
         <Footer/>
         <SidebarContainer/>
-        <h1>Dashboard</h1>
         </>
     )
 }
